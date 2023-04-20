@@ -8,7 +8,7 @@
 **There is a lot of unnecessary code in this template for my purposes and these practices doesn't represent my practice in any way. In the future I'll create one from the scratch to represent my practice more accurately.**
 
 
-Credits:
+**Credits:**
 
 	Template:
 	Prologue by HTML5 UP
