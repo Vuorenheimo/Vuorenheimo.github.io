@@ -3,23 +3,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-import axios from 'axios';
 
 const copyEmail = () => {
 	navigator.clipboard.writeText("sami.vuorenheimo@gmail.com");
 	alert("Email copied to clipboard!");
 }
-
-const test = () => {
-	console.log("test");
-	const promise = axios.get('https://vuorenheimo.github.io/data_test/db.json')
-
-	promise.then(response => {
-  	console.log(response)
-	})
-}
-
-test();
 
 (function($) {
 
