@@ -9,6 +9,7 @@ const copyEmail = () => {
 }
 
 const test = () => {
+	console.log("test");
 	const promise = axios.get('https://vuorenheimo.github.io/data_test/db.json')
 
 	promise.then(response => {
