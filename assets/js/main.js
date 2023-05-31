@@ -8,6 +8,16 @@ const copyEmail = () => {
 	alert("Email copied to clipboard!");
 }
 
+const test = () => {
+	const promise = axios.get('https://vuorenheimo.github.io/data_test/db.json')
+
+	promise.then(response => {
+  	console.log(response)
+	})
+}
+
+test();
+
 (function($) {
 
 	var	$window = $(window),
